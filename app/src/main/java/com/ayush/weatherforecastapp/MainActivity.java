@@ -224,7 +224,7 @@ public class MainActivity extends AppCompatActivity {
                             longitude = addresses.get(0).getLongitude();
                             address = addresses.get(0).getAddressLine(0);
                             DownloadTask task = new DownloadTask();
-                            String url = "https://api.openweathermap.org/data/2.5/weather?lat=" + latitude + "&lon=" + longitude + "&appid=0917117e3e000e954a145026d416306f";
+                            String url = "https://api.openweathermap.org/data/2.5/weather?lat=" + latitude + "&lon=" + longitude + "&appid=xxxxxxxxxxxxxxxxxxxx";
                             task.execute(url);
                         } catch (IOException e) {
                             e.printStackTrace();
