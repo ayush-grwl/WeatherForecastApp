@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Weather Forecaster</string>
+    <string name="file">File</string>
+</resources>
